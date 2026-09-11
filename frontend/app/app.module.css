@@ -1,0 +1,86 @@
+.botonesVentanaBienvenida{
+    display: flex;
+   
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.personalizado1{
+   
+   border-radius: 25px;
+background: #41fd26;
+box-shadow:  7px 7px 14px #228414,
+             -7px -7px 14px #60ff38;
+   
+}
+
+.personalizado1:hover{
+    border-radius: 25px;
+background: #207413;
+box-shadow:  7px 7px 14px #228414,
+             -7px -7px 14px #60ff38;
+}
+
+
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #bee336 5%, #283618 100%);
+	background-color:#bee336;
+	border-radius:6px;
+	border:1px solid #606c38;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #283618 5%, #bee336 100%);
+	background-color:#283618;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.fondo1{
+
+background-color: #283618;
+background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+
+}
+
+.letra1{
+    font-size: 1.8rem;
+}
+
+.fondo2{
+
+background-color: #fffcfc;
+background-image: url("https://www.transparenttextures.com/patterns/elegant-grid.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+
+}
+
+
+.fondo3{
+    /*
+    background-color: #54661a;
+background-image: url("https://www.transparenttextures.com/patterns/shley-tree-2.png");
+*/
+
+background-color: #594117;
+background-image: url("https://www.transparenttextures.com/patterns/shley-tree-1.png");
+
+}

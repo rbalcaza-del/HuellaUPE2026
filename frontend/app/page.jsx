@@ -2,7 +2,9 @@ import Image from "next/image";
 
 
 import Link from "next/link";
-import NavBar from "../componentes/navBar"
+import style from "./app.module.css";
+
+
 
 export default function Home() {
   return (
@@ -10,17 +12,45 @@ export default function Home() {
 
 
 
-<main>
+<main className={`container-fluid d-flex justify-content-center align-items-center vh-100 ${style.fondo3}`} >
+  
 
-  <NavBar/>
+
+  
+<div className={`card text-center `} >
+
+  <div className={`card-header d-flex gap-5 aling-items-center justify-content-center ${style.fondo1} ${style.letra1}`}>
+      <i className="bi bi-leaf"></i>  
     
-    <h1>Mi aplicación</h1>
-    <p>Frontend desarrollado con Next.js y React.asdasdas</p>
-    <h5>Pagina de entrada</h5>
-    <h3>Muestra bienvenida, y la opcion de loguearse o registrarse</h3>
-  <Link href="/login">login</Link>
-  <br />
-  <Link href="/registrarse">Registrarse</Link>
+    
+    HDC UPE 
+
+    <i className="bi bi-leaf"></i>  
+  </div>
+  <div className={`card-body ${style.fondo2}`}>
+  
+    <h5 className="card-title">Calcula la contaminacion que estas emitiendo.</h5>
+      
+    <br />
+    <p className="card-text">Empieza ahora. Registra una cuenta para tu hogar u organizacion. Si ya tienes cuenta logueate.</p>
+    <br />
+   <div className={`${style.botonesVentanaBienvenida} container`}>
+
+    <Link href="/registrarse" className={`${style.myButton}`}>Registrarse</Link>
+    <Link href="/login" className={`${style.myButton}`}>Loguearse</Link>
+   </div>
+  
+  </div>
+  <div className={`card-footer text-body-secondary ${style.fondo1}`}>
+    Ezeiza, 2026
+  </div>
+</div>
+
+
+    
+
+
+  
 
 
 </main>
