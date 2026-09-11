@@ -1,0 +1,5 @@
+.clase1{
+    border:solid greenyellow 3px;
+    display: flex;
+    flex-direction: row;
+}
