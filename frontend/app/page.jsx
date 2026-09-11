@@ -12,7 +12,7 @@ export default function Home() {
 
 
 
-<main className={`container-fluid d-flex justify-content-center align-items-center vh-100 ${style.fondo3}`} >
+<main className={`container-fluid d-flex justify-content-center align-items-center vh-100 fuenteBasic ${style.fondo3}`} >
   
 
 
@@ -29,14 +29,14 @@ export default function Home() {
   </div>
   <div className={`card-body ${style.fondo2}`}>
   
-    <h5 className="card-title">Calcula la contaminacion que estas emitiendo.</h5>
+    <h5 className={`card-title`}>Calcula la contaminacion que estas emitiendo.</h5>
       
     <br />
     <p className="card-text">Empieza ahora. Registra una cuenta para tu hogar u organizacion. Si ya tienes cuenta logueate.</p>
     <br />
-   <div className={`${style.botonesVentanaBienvenida} container`}>
+   <div className={`${style.botonesVentanaBienvenida} container `}>
 
-    <Link href="/registrarse" className={`${style.myButton}`}>Registrarse</Link>
+    <Link href="/registrarse" className={`${style.myButton} `}>Registrarse</Link>
     <Link href="/login" className={`${style.myButton}`}>Loguearse</Link>
    </div>
   
